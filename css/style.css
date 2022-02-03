@@ -5,7 +5,7 @@ body {margin: 0;}
 /* GLOBAL COLOR */
 body { color: rbga(0, 0, 0, 0.8);}
 a {color: rbga(0, 102, 204, 1);}
-a:hover {color: rgba(0, 51, 153, 1);}
+a:hover {color: rgba(0, 51, , 1);}
 
 /* GLOBAL TYPOGRAPHY*/
 body{
@@ -56,6 +56,11 @@ header a:hover {
 footer {
     border-top: 1px soild rgba(0, 0, 0, .05);
     padding: 1em;
+}
+
+/* MAIN */
+main {
+    background: rgba(0, 0, 0, .05);
 }
 
 /* SOCIAL NAV */
