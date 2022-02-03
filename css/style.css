@@ -13,3 +13,106 @@ body{
     font-size: 88.75%; /* 14px */
     line-height: 1.4;
 }
+
+/*Header */
+header {
+    background-color: rgb(170, 142, 235);
+    color: rgba(0, 0, 0, 0.8);
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+header a{
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+header a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+/* SITE ID */
+.site-id h1 {
+    margin: 0;
+}
+
+/* SITE NAV*/
+.site-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-nav a{
+    display: block;
+    padding: 1em;
+}
+
+/* Footer */
+footer {
+    border-top: 1px soild rgba(0, 0, 0, .05);
+    padding: 1em;
+}
+
+/* SOCIAL NAV */
+.social-nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.social-nav a {
+    display: block;
+    padding: 1em;
+}
+
+/*HERO SECTION */
+.hero {
+    background-color: rgb(170, 142, 235);
+    text-align: center;
+    color: white;
+    padding: 6em 1em;
+}
+
+.hero h2 {
+    font-size: 6em;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.hero p{
+    max-width: 30em;
+    margin: 1em auto;
+}
+
+/* COURSE SECTION */
+.courses {
+    padding: 6em 1em;
+    display: gird;
+    justify-content: center;
+}
+
+.courses ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.courses h3 {
+    text-align: center;
+}
+
+/* FOR WEB DEV PURPOSES ONLY */
+/* body, *{
+    background-color; rgba(0,0,0,.05);
+    border: 1px soild rgba(0,0,0,.1);
+    color: rgba(0,0,0,.5);
+} */
