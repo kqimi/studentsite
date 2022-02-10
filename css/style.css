@@ -143,11 +143,6 @@ aside {
 }
 
 /* CUSTOM STYLING FOR SPECIFIC & SUB PAGE */
-.page-sub .hero {
-    background-image: url(../img/marble.jpg);
-    color: rgba(255, 255, 255, 0.8);
-}
-
 .page-home .hero{
     background-image: url(../img/marble.jpg);
     background-size: cover;
@@ -159,6 +154,12 @@ aside {
     background-color: transparent;
     position: absolute;
     width: 100%;
+    
+}
+
+.page-sub .hero {
+    background-image: url(../img/marble.jpg);
+    color: rgba(255, 255, 255, 0.8);
     
 }
 
