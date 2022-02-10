@@ -142,10 +142,24 @@ aside {
     text-align: center;
 }
 
-/* SUB PAGE */
+/* CUSTOM STYLING FOR SPECIFIC & SUB PAGE */
 .page-sub .hero {
-    background-color: rgba(0, 0, 0, 0.1);
-    color: rgba(0, 0, 0, 0.8);
+    background-image: url(../img/marble.jpg);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.page-home .hero{
+    background-image: url(../img/marble.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30vh 1em 20vh 1em;
+}
+
+.page-home header {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    
 }
 
 /* COURSE PAGES WITH MULTIPLE PROJECT LISTS */
