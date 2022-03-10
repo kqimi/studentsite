@@ -4,8 +4,8 @@ body {margin: 0;}
 
 /* GLOBAL COLOR */
 body { color: rbga(0, 0, 0, 0.8);}
-a {color: rbga(0, 102, 204, 1);}
-a:hover {color: rgba(0, 51, 0, 1);}
+a {color: black;}
+a:hover {color: rgb(170, 126, 206);}
 
 /* GLOBAL TYPOGRAPHY*/
 body{
@@ -16,12 +16,14 @@ body{
 
 /*Header */
 header {
-    background-color: rgb(170, 142, 235);
+    background-color: transparent;
     color: rgba(0, 0, 0, 0.8);
     padding: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    position: absolute;
+    width:100%;
 }
 
 header a{

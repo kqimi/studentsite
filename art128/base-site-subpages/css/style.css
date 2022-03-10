@@ -143,6 +143,13 @@ blockquote cite:before {
 .text-centered {
     text-align: center;
 }
+
+.hidden {
+    position: abosolute;
+    top: -9999px;
+    left: -9999px;
+}
+
 .full-width {
     max-width: none;
     width: 100%;
@@ -470,4 +477,68 @@ section {
     .toggle-nav[data-navstate="open"] .toggle-nav .site-nav .menu-button.navicon::after {
         content: "\2715";
     }
+}
+
+.hero.full-width {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* SUB PAGES */
+
+article {
+    max-width: 38em;
+    margin: 0 auto 8em auto;
+    padding: 2em 0;
+}
+
+article h1 {
+    text-align: center;
+}
+
+article h1 + h2 {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.25em;
+    font-weight: normal;
+    margin-bottom: 1em;
+}
+
+
+article .date {
+    text-align: center;
+    line-height: 0.625em;
+    color: #999;
+    font-weight: normal;
+    font-size: .75em;
+    opacity: .5;
+    margin-bottom: 3em;
+}
+
+article .date + p {
+    margin-top: 2em;
+}
+
+article p + h1,
+article p + h2,
+article p + h3,
+article p + h4,
+article p + h5,
+article p + h6 {
+    margin-top: 1.5em;
+}
+
+article p:first-of-type {
+    font-size: 1.4em;
+    line-height: 1.2;
+}
+
+article p:first-of-type:first-letter {
+    font-size: 3em;
+    line-height: 1em;
+    background: darkseagreen;
+    color: #ffff;
+    padding: .2em .4em;
+    margin-right: .3em;
+    float: left;
 }
