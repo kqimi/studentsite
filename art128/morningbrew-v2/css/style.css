@@ -62,6 +62,7 @@ h1 {
 h2 {
     font-size: 2.25em; /* 36px */
     line-height: 1.1;
+    text-align: center;
 
 }
 
@@ -386,6 +387,10 @@ body.demo::before {
     text-align: center;
 }
 
+.site-id img{
+    max-width: 10%;
+}
+
 /* SITE NAV */
 .site-nav ul {
     margin: 0;
@@ -414,16 +419,25 @@ section {
 .hero { 
     background-image: url(../img/homepage.jpg);
     background-position: center;
-    padding: 6em 4%;
     background-color: rgba(0, 0, 0, .1);
+    background-size: cover;
     text-align: center;
+    min-height: 100vh;
+    padding: 1em;
+    display: grid;
+    place-items: center;
+    
 }
 
-.hero h1, p {
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+.hero .logowrapper{
+    max-width: 30vw;
+    background-color: rgba(0,0,0,0.5);
+    padding: 4em;
+    
+    
+
 }   
+
 
 
 
@@ -477,7 +491,7 @@ section {
         content: "\2630";
         display: inline-block;
         padding: .2 .4em;
-        color: rgba(0, 0, 0, .8);
+        color: white;
         margin: 0;
         font-size: 1.5em;
     }
@@ -608,10 +622,16 @@ form input[type=submit] {
 }
 
 .site-header.sticky {
-    background-color: rgb(255 255 255 / .5);
+    background-color: rgb(0,0,0,1);
+    color: white;
     position: fixed;
     width: 100%;
 }
+.site-header.sticky a{
+    color: white;
+}
+
+
 
 #about {
     /*background: rgba(0, 0, 0, 0.5)*/
