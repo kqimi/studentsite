@@ -49,7 +49,7 @@ h3,
 h4, 
 h5, 
 h6 {
-    font-family: font-family: itc-avant-garde-gothic-pro,sans-serif;
+    font-family: Helvetica, Arial, sans serif;
     margin: .5em 0;
 }
 
@@ -59,17 +59,10 @@ h1 {
 
 }
 
-
-
 h2 {
-    color: rgb(73, 73, 73);
-    font-family: alverata, sans-serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 2.25em; /* 36px */
-    line-height: 1.5;
+    line-height: 1.1;
     text-align: center;
-
 
 }
 
@@ -99,9 +92,6 @@ h6 {
 
 /* PARAGRAPH */
 p {
-    font-family: century-gothic, sans-serif;    
-    font-weight: 400;
-    font-style: normal;
     margin: 0 0 .5em 0;
     max-width: 38em;
 }
@@ -188,7 +178,8 @@ button,
 a.button,
 form input[type="submit"] {
     display: inline-block;
-    background-color: rgb(0, 0, 0);
+    background-color: darkseagreen;
+    border: 1px solid darkseagreen;
     color: #fff;
     padding: 0.75em 1em;
     border-radius: 0.32em;
@@ -207,8 +198,9 @@ a.button.alt {
 button:hover,
 a.button:hover,
 form input[type="submit"]:hover {
-    background-color: rgb(109, 65, 29);
+    background-color: olivedrab;
     color:white;
+    border-color: olivedrab;
     text-decoration: none;
 }
 
@@ -225,7 +217,7 @@ body {
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 4%;
  
 }
 
@@ -405,9 +397,6 @@ body.demo::before {
 
 /* SITE NAV */
 .site-nav ul {
-    font-family: itc-avant-garde-gothic-pro,sans-serif;
-    font-weight: 300;
-    font-style: normal;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -432,7 +421,7 @@ section {
 
 /* HERO */
 .hero { 
-    background-image: url(../img/hero.png);
+    background-image: url(../img/homepage.jpg);
     background-position: center;
     background-color: rgba(0, 0, 0, .1);
     background-size: cover;
@@ -640,7 +629,6 @@ form input[type=submit] {
     color: white;
     position: fixed;
     width: 100%;
-    display: flex;
 }
 .site-header.sticky a{
     color: white;
@@ -656,7 +644,7 @@ form input[type=submit] {
 }
 
 #our-story .container h2{
-
+    margin-bottom: 2em;
 }
 
 #our-story .container img{
@@ -665,7 +653,9 @@ form input[type=submit] {
   
 }
 
-
+#menu .container h2{
+    margin-bottom: 2em;
+}
 
 #menu .row .one-half.column {
     text-align: center;
@@ -678,7 +668,7 @@ form input[type=submit] {
 }
 
 #specials img{
-    border-radius: 180px;
+    border-radius: 150px;
     max-width: 90%;
     display: inline;
     padding: 2em;
@@ -688,12 +678,8 @@ form input[type=submit] {
     text-align: center;
 }
 
-
-#specials .container p{
-    font-family: itc-avant-garde-gothic-pro, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 120%;
+#specials .container h2{
+    margin-bottom: 2em;
 }
 
 #gallery img{
@@ -718,12 +704,9 @@ form input[type=submit] {
 }
 
 
-
-
-#contact .container p{
-    font-family: itc-avant-garde-gothic-pro,sans-serif;
-    font-weight: 300;
-    font-style: normal;
+#contact .container h2{
+    margin-bottom: 2em;
+    
 }
 
 #contact .container .row{

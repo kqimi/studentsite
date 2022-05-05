@@ -12,16 +12,8 @@
     <!-- FOR IE -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--ADOBE FONTS-->
-    <link rel="stylesheet" href="https://use.typekit.net/vew1lgl.css">
-
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.css">
-
-
-
-    
-
 </head>
 <body>
 
@@ -49,7 +41,9 @@
 
         
             <section class="hero">
-                
+                <div class="logowrapper">
+                    <img src="img/mb-white-logo.png" width="900" height="736" alt="Morning Brew logo">
+                </div>
             </section>
 
         
@@ -86,12 +80,12 @@
                 <h2>MENU</h2>
                 <div class="row">
                     <div class="one-half column">
-                        <a href="#"><img src="img/drinksmenu.png" alt="placeholder" width="600" height="600" alt="drinks menu" /></a>
-                        
+                        <a href="#"><img src="img/feathereddrink.png" alt="placeholder" width="600" height="600" alt="drinks menu" /></a>
+                        <h3>Drinks</h3>
                     </div>
                     <div class="one-half column">
-                        <a href="#"><img src="img/foodmenu.png" alt="placeholder" width="600" height="600" alt="food menu" /></a>
-                        
+                        <a href="#"><img src="img/featheredfood.png" alt="placeholder" width="600" height="600" alt="food menu" /></a>
+                        <h3>Food</h3>
                     </div>
 
 
@@ -182,60 +176,32 @@
                 </p>
                 <br>
                 <p>
-                    <b>Address</b>: 685 Auahi St. #113 Honolulu, HI 96813
+                    Address: 685 Auahi St. #113 Honolulu, HI 96813
                 </p>
                 <p>
-                    <b>Phone</b>: 808-369-3444
+                    Phone: 808-369-3444
                 </p>
                 <p>
-                    <b>Email</b>: mb.crew22@gmail.com
+                    Email: mb.crew22@gmail.com
                 </p>
             </div>  
 
-
             </div>
-
             <div class="container">
-                <h3>Keep In Touch</h3>
-                <div class="form">
-                  <form>
-                    <input
-                      class="form-control"
-                      type="text"
-                      id="name"
-                      aria-label="Name"
-                      placeholder="Your Name *"
-                      required
-                    />
-                    <input
-                      class="form-control"
-                      type="email"
-                      id="mail"
-                      aria-label="Email"
-                      placeholder="Your Email *"
-                      required
-                    />
-                    <input
-                      class="form-control"
-                      type="tel"
-                      id="tel"
-                      aria-label="Phone Number"
-                      placeholder="Your Number *"
-                      required
-                    />
-                    <textarea
-                      class="message form-control"
-                      id="msg"
-                      aria-label="Message"
-                      placeholder="Your Message *"
-                      required
-                    ></textarea>
-                    <button type="submit" class="btn  form-control">Send Message</button>
-                  </form>
-                </div>
-              </div>
-
-            
+                <form>
+                    <label for="contact_name">Name:</label>
+                    <input type="text" id="contact_name" name="contact_name"/>
+    
+                    <label for="email">Email Address:</label>
+                    <input type="text" id="contact_email" name="contact_email"/>
+    
+                    <label for="contact_message">Message:</label>
+                    <textarea id="contact_message" name="contact_message"></textarea>
+    
+                    <input type="submit" value="Submit" />
+                    
+                </form>
+            </div>
         </section>
        
     
