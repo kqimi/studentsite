@@ -655,9 +655,6 @@ form input[type=submit] {
 
 }
 
-#our-story .container h2{
-
-}
 
 #our-story .container img{
     max-width: 90%;
@@ -728,9 +725,15 @@ form input[type=submit] {
 
 #contact .container .row{
     justify-content: center;
+
 }
 
 #contact .map{
+    justify-content: right;
+    padding: 2em;
+}
+
+#contact .container p{
     justify-content: right;
 }
 

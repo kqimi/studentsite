@@ -49,7 +49,7 @@ h3,
 h4, 
 h5, 
 h6 {
-    font-family: Helvetica, Arial, sans serif;
+    font-family: font-family: itc-avant-garde-gothic-pro,sans-serif;
     margin: .5em 0;
 }
 
@@ -61,6 +61,10 @@ h1 {
 
 h2 {
     font-size: 2.25em; /* 36px */
+    font-family: alverata, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(73, 73, 73);
     line-height: 1.1;
     text-align: center;
 
@@ -92,6 +96,9 @@ h6 {
 
 /* PARAGRAPH */
 p {
+    font-family: century-gothic, sans-serif;    
+    font-weight: 400;
+    font-style: normal;
     margin: 0 0 .5em 0;
     max-width: 38em;
 }
@@ -357,6 +364,7 @@ body.demo::before {
 /* SITE HEADER */
 .site-header {
     padding: 1em 0;
+    display: flex;
 }
 
 /* ON LARGER SCREENS PLACE LOGO LEFT AND NAV RIGHT */
@@ -371,7 +379,7 @@ body.demo::before {
 }
 
 /* STYLING FOR BOTH HEADER AND FOOTER */
-.site-header.site-header.sticky a,
+.site-header.site-header.a,
 .site-footer a {
     color: rgba(255, 255, 255, 0.8);
 }
@@ -397,6 +405,8 @@ body.demo::before {
 
 /* SITE NAV */
 .site-nav ul {
+    font-family: itc-avant-garde-gothic-pro,sans-serif;
+    font-weight: 300;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -421,7 +431,7 @@ section {
 
 /* HERO */
 .hero { 
-    background-image: url(../img/homepage.jpg);
+    background-image: url(../img/hero.png);
     background-position: center;
     background-color: rgba(0, 0, 0, .1);
     background-size: cover;
@@ -432,20 +442,6 @@ section {
     place-items: center;
     
 }
-
-.hero .logowrapper{
-    max-width: 25vw;
-    background-color: rgba(0,0,0,0.5);
-    padding: 3em;
-    
-    
-
-}   
-
-
-
-
-
 
 /* TOGGLE NAV */
 @media (max-width: 767px) {
@@ -643,18 +639,12 @@ form input[type=submit] {
 
 }
 
-#our-story .container h2{
-    margin-bottom: 2em;
-}
+
 
 #our-story .container img{
     max-width: 90%;
     padding: 2em;
   
-}
-
-#menu .container h2{
-    margin-bottom: 2em;
 }
 
 #menu .row .one-half.column {
@@ -682,6 +672,13 @@ form input[type=submit] {
     margin-bottom: 2em;
 }
 
+#specials .container p{
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 120%;
+}
+
 #gallery img{
     max-width: 100%;
     height: auto;
@@ -704,17 +701,23 @@ form input[type=submit] {
 }
 
 
-#contact .container h2{
-    margin-bottom: 2em;
-    
-}
-
 #contact .container .row{
     justify-content: center;
 }
 
 #contact .map{
     justify-content: right;
+}
+
+#contact .container h3{
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+}
+
+#contact .container p{
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
 }
 
 #our-story{

@@ -196,44 +196,20 @@
             </div>
 
             <div class="container">
-                <h3>Keep In Touch</h3>
-                <div class="form">
-                  <form>
-                    <input
-                      class="form-control"
-                      type="text"
-                      id="name"
-                      aria-label="Name"
-                      placeholder="Your Name *"
-                      required
-                    />
-                    <input
-                      class="form-control"
-                      type="email"
-                      id="mail"
-                      aria-label="Email"
-                      placeholder="Your Email *"
-                      required
-                    />
-                    <input
-                      class="form-control"
-                      type="tel"
-                      id="tel"
-                      aria-label="Phone Number"
-                      placeholder="Your Number *"
-                      required
-                    />
-                    <textarea
-                      class="message form-control"
-                      id="msg"
-                      aria-label="Message"
-                      placeholder="Your Message *"
-                      required
-                    ></textarea>
-                    <button type="submit" class="btn  form-control">Send Message</button>
-                  </form>
-                </div>
-              </div>
+                <form>
+                    <label for="contact_name">Name:</label>
+                    <input type="text" id="contact_name" name="contact_name"/>
+    
+                    <label for="email">Email Address:</label>
+                    <input type="text" id="contact_email" name="contact_email"/>
+    
+                    <label for="contact_message">Message:</label>
+                    <textarea id="contact_message" name="contact_message"></textarea>
+    
+                    <input type="submit" value="Submit" />
+                    
+                </form>
+            </div>
 
             
         </section>
