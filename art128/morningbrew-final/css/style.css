@@ -49,7 +49,7 @@ h3,
 h4, 
 h5, 
 h6 {
-    font-family: font-family: itc-avant-garde-gothic-pro,sans-serif;
+    font-family: itc-avant-garde-gothic-pro,sans-serif;
     margin: .5em 0;
 }
 
@@ -784,14 +784,4 @@ form input[type=submit] {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-#about {
-    /*background: rgba(0, 0, 0, 0.5)*/
-}
-
-#contact {
-    /*background: rgba(0, 0, 0, .1); */
-} 
-
-/* 29:00 */
 
