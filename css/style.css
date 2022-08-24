@@ -4,14 +4,15 @@ body {margin: 0;}
 
 /* GLOBAL COLOR */
 body { color: rbga(0, 0, 0, 0.8);}
-a {color: black;}
-a:hover {color: rgb(170, 126, 206);}
+a {color: rgb(77, 97, 78);}
+a:hover {color: rgb(167, 191, 107);}
 
 /* GLOBAL TYPOGRAPHY*/
 body{
     font-family: Helvetica, Arial,  sans-serif;
     font-size: 88.75%; /* 14px */
     line-height: 1.4;
+    color: rgb(74, 44, 13);
 }
 
 /*Header */
@@ -211,6 +212,11 @@ dd {
 }
 
 
+
+/* ASSIGNMENT LISTS */
+.project {
+    margin: 3em;
+}
 
 
 
