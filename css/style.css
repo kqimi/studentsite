@@ -59,6 +59,15 @@ header a:hover {
 footer {
     border-top: 1px soild rgba(0, 0, 0, .05);
     padding: 1em;
+    background-color: black;
+}
+
+footer a {
+    color:rgb(167, 191, 107);
+}
+
+footer a:hover {
+    color: rgb(77, 97, 78);
 }
 
 /* MAIN */
@@ -130,7 +139,7 @@ aside {
 /* COURSE SECTION */
 .courses {
     padding: 6em 1em;
-    display: gird;
+    display: grid;
     justify-content: center;
 }
 
@@ -147,8 +156,8 @@ aside {
 
 /* CUSTOM STYLING FOR SPECIFIC & SUB PAGE */
 .page-sub .hero {
-    background-image: url(../img/marble.jpg);
-    color: rgba(255, 255, 255, 0.8);
+    background-image: url(../img/catbackground.jpg);
+    color: rgba(255, 254, 254, 0.8);
     background-size: cover;
     background-position: center;
     padding: 20vh 1em;
@@ -156,7 +165,7 @@ aside {
 }
 
 .page-home .hero{
-    background-image: url(../img/marble.jpg);
+    background-image: url(../img/catbackground.jpg);
     background-size: cover;
     background-position: center;
     padding: 30vh 1em 20vh 1em;
