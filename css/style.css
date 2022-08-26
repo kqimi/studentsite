@@ -155,19 +155,19 @@ aside {
 
 /* CUSTOM STYLING FOR SPECIFIC & SUB PAGE */
 .page-sub .hero {
-    background-image: url(../img/catbackground.jpg);
+    background-image: url(../img/catbackground1.jpg);
     color: rgba(255, 254, 254, 0.8);
     background-size: cover;
     background-position: center;
-    padding: 20vh 1em;
+    padding: 30vh 1em 30vh 1em;
 
 }
 
 .page-home .hero{
-    background-image: url(../img/catbackground.jpg);
+    background-image: url(../img/catbackground1.jpg);
     background-size: cover;
     background-position: center;
-    padding: 50vh 1em 40vh 1em;
+    padding: 30vh 1em 30vh 1em;
 }
 
 .page-home header {
